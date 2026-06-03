@@ -1,11 +1,11 @@
-import real from "../assets/real.svg";
+import reall from "../assets/real.svg";
 import build from "../assets/hero image.svg";
-import dropdown from "../assets/dropdown.svg";
-import search from "../assets/search.svg";
-import client1 from "../assets/client 1.svg";
-import client2 from "../assets/client 2.svg";
-import client3 from "../assets/client 3.svg";
-import client4 from "../assets/client 4.svg";
+import drop from "../assets/dropdown.svg";
+import sear from "../assets/search.svg";
+import clien from "../assets/client 1.svg";
+import client from "../assets/client 2.svg";
+import clientt from "../assets/client 3.svg";
+import clientttt from "../assets/client 4.svg";
 import cover from "../assets/bg.svg";
 import Body from "./Body";
 import Footer from "./Footer";
@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <>
       <div className="flex px-25 py-4.75">
-        <img src={real} alt="" className="w-34.5 h-34.5" />
+        <img src={reall} alt="" className="w-34.5 h-34.5" />
         <nav className="flex mx-auto gap-9.75 w-167.5 mt-13">
           <p className="font-medium text-[20px] text-[#000000]">Home</p>
           <p className="font-medium text-[20px] text-[#000000]">Services</p>
@@ -48,22 +48,22 @@ const Home = () => {
             <div className="flex mt-5 gap-2">
               <div className="flex items-center text-center w-26.5 h-12.5 p-3.75 gap-[5px] bg-white/10 border border-white rounded-[10px] backdrop-blur-sm">
                 <p className="font-medium text-white text-[20px]">Buy</p>
-                <img src={dropdown} alt="" className="w-3.5 h-7" />
+                <img src={drop} alt="" className="w-3.5 h-7" />
               </div>
 
               <div className="flex items-center text-center w-26.5 h-12.5 p-3.75 gap-1.25 bg-white/10 border border-white rounded-[10px] backdrop-blur-sm">
                 <p className="font-medium text-white text-[20px]">Rent</p>
-                <img src={dropdown} alt="" className="w-3.5 h-7" />
+                <img src={drop} alt="" className="w-3.5 h-7" />
               </div>
 
               <div className="flex items-center text-center w-26.5 h-12.5 p-3.75 gap-1.25 bg-white/10 border border-white rounded-[10px] backdrop-blur-sm">
                 <p className="font-medium text-white text-[20px]">Sell</p>
-                <img src={dropdown} alt="" className="w-3.5 h-7" />
+                <img src={drop} alt="" className="w-3.5 h-7" />
               </div>
 
               <div className="flex items-center text-center w-32.5 h-13.5 bg-white rounded-[10px] gap-2.5 p-3.75">
                 <p className="text-black font-medium text-[20px]">Search</p>
-                <img src={search} alt="" className="w-6 h-6" />
+                <img src={sear} alt="" className="w-6 h-6" />
               </div>
             </div>
           </div>
@@ -79,22 +79,22 @@ const Home = () => {
 
             <div className="flex items-center ml-21 ">
               <img
-                src={client1}
+                src={clien}
                 alt=""
                 className="w-22.5 h-22.5 rounded-full object-cover border-2 border-white z-10"
               />
               <img
-                src={client2}
+                src={client}
                 alt=""
                 className="w-22.5 h-22.5 rounded-full object-cover border-2 border-white -ml-6 z-20"
               />
               <img
-                src={client3}
+                src={clientt}
                 alt=""
                 className="w-22.5 h-22.5 rounded-full object-cover border-2 border-white -ml-6 z-30"
               />
               <img
-                src={client4}
+                src={clientttt}
                 alt=""
                 className="w-22.5 h-22.5 rounded-full object-cover border-2 border-white -ml-6 z-40"
               />
