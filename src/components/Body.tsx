@@ -13,8 +13,8 @@ import love from "../assets/love.svg";
 import second from "../assets/second.svg";
 import third from "../assets/third.svg";
 import samuel from "../assets/samuel.svg";
-import blessing from "../assets/blessing.svg";
-import orji from "../assets/orji.svg";
+import blessing from "../assets/Blessing.svg";
+import orji from "../assets/Orji.svg";
 import backg from "../assets/bakcg.svg";
 
 const properties = [
