@@ -89,7 +89,18 @@ const testimonials: Testimonial[] = [
   },
 ];
 
-const PropertyCard = ({ property }) => {
+type Property = {
+  id: number;
+  image: string;
+  price: string;
+  title: string;
+  location: string;
+  bedrooms: number;
+  bathrooms: number;
+  sqft: string;
+};
+
+const PropertyCard = ({ property }: { property: Property }) => {
   return (
     <div className="relative w-100 h-130 overflow-hidden rounded-3xl rounded-b-[30px] shrink-0">
       {/* Image fills the whole card */}
@@ -137,7 +148,7 @@ const PropertyCard = ({ property }) => {
   );
 };
 
-const TestimonialCard = ({ testimonial }) => {
+const TestimonialCard = ({ testimonial }: { testimonial: Testimonial }) => {
   return (
     <div className="flex flex-col justify-between py-5 px-5.25 shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] bg-[#F8F9FA] rounded-[30px] w-96.5 h-93.25">
       <p className="text-[20px] text-[#6B6A6A] text-center font-medium">
